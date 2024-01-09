@@ -1,5 +1,5 @@
 import { getCategories, getProducts } from 'lib/medusa';
-import { MetadataRoute } from 'next';
+import { MetadataRoute } from 'next/dist/lib/metadata/types/metadata-interface';
 
 type Route = {
   url: string;
